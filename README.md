@@ -1,4 +1,4 @@
-# Programming Assignments of each Course week
+# Programming Assignments of each Course week in Octave
 
 * Ex 1 - **Linear Regression**
 * Ex 2 - **Logistic Regression**
