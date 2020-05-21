@@ -55,9 +55,13 @@ error_val   = zeros(m, 1);
 
 
 
-
-
-
+for i = 1:m
+  theta = trainLinearReg(X(1:i, :), y(1:i), lambda);
+  [Jtrain, gradtrain] = linearRegCostFunction(X(1:i, :), y(1:i), theta, 0);
+  [Jcv, gradcv] = linearRegCostFunction(Xval, yval, theta, 0);
+  error_train(i, 1) = Jtrain;
+  error_val(i, 1) = Jcv;
+endfor
 
 % -------------------------------------------------------------
 
