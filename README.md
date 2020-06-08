@@ -7,3 +7,4 @@
 * Ex 5 - **Regularized Linear Regression and Bias v.s. Variance**
 * Ex 6 - **Support Vector Machines (SVM)**
 * Ex 7 - **K-means Clustering and Principal Component Analysis**
+* Ex 8 - **Anomaly Detection and Recommender Systems**
